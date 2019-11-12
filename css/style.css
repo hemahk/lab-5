@@ -46,7 +46,8 @@ h1 {
 
 div {
 	text-align: center;
-	color: red;	
+	color: red;
+	background-color: silver;
     font-family: 'led_board_reversedregular', regular;
 	font-weight:bold;
 	font-style:normal;
