@@ -1,0 +1,84 @@
+body {
+	background-image: url(star_bkg2.jpg);
+	background-color: black;
+
+	/*background-color: black; 
+	background-image: src(images/star_bkg.jpg); background-repeat: repeat-x">
+	background-color: black; background-image: src(images/star_bkg.jpg);
+	background-repeat: repeat-x;*/
+}
+
+@font-face {
+    font-family: 'space_ageregular';
+    src: url('space_age-webfont.woff2') format('woff2'),
+         url('space_age-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'led_board_reversedregular';
+    src: url('ledbdrev-webfont.woff2') format('woff2'),
+         url('ledbdrev-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('caviardreams_bold-webfont.woff2') format('woff2'),
+         url('caviardreams_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+	text-align: center;
+    font-family: 'space_ageregular', regular;
+	font-weight:bold;
+	font-style:normal;
+	font-size: 500%;	
+	color: white;
+}
+
+div {
+	text-align: center;
+	color: red;	
+    font-family: 'led_board_reversedregular', regular;
+	font-weight:bold;
+	font-style:normal;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 5%;
+	border-style: dotted;
+}
+
+table {
+	font-family: 'caviar_dreamsbold', regular;
+	font-weight:normal;
+	font-style:normal;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: right;
+	margin-bottom: 10%;
+	font-size: 110%;
+	color: turquoise;
+}
+
+h3 {
+	text-align: center;
+	font-size: 200%;
+	color: lime;
+}
+
+h4 {
+	text-align: left;
+	font-style: oblique;
+	font-size: 125%;
+	color: lawngreen;
+}
+
+
